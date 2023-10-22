@@ -1,8 +1,8 @@
-!(https://github.com/ophi4383/dotfiles/blob/main/repo/screenshot.png)
+![lol](https://raw.githubusercontent.com/ophi4383/dotfiles/main/repo/screenshot.png)
 # DOTFILES
 My dotfiles on swayfx :3 
 
-# DEPENDENCIES
+## DEPENDENCIES
 - SwayFX (Window manager)
 - waybar (status bar)
 - mako (notification daemon)
