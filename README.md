@@ -1,2 +1,22 @@
-# dotfiles
-Sway dotfiles:3
+!(https://github.com/ophi4383/dotfiles/blob/main/repo/screenshot.png)
+# DOTFILES
+My dotfiles on swayfx :3 
+
+# DEPENDENCIES
+- SwayFX (Window manager)
+- waybar (status bar)
+- mako (notification daemon)
+- cliphist (clipboard thing)
+- rofi (app menu / clipboard viewer)
+  - ibonn fork **specifically**
+- alacritty (terminal)
+- swaylock (lockscreen)
+   - effects fork **specifically**
+- grimshot (screenshots)
+- jetbrains mono nerd font (used font in most of the configs)
+- themes:
+	- catppuccin frappe (gtk, rofi, kvantum)
+	- qogir (icons)
+	- powerlevel10k (shell theme)
+- qt5ct (for qt application themes)
+	- Kvantum (for the above as well)
