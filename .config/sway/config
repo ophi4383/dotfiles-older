@@ -113,8 +113,8 @@ set $ws10 10
 bindsym Mod4+Shift+c reload
 
 # screenshot
-bindsym $mod+Print exec grimshot --notify copy area
-bindsym $mod+Shift+Print exec grimshot --notify copy screen
+bindsym $mod+Print exec grimshot --notify save area
+bindsym $mod+Shift+Print exec grimshot --notify save screen
 
 #open kitty
 bindsym $mod+Return exec $term
