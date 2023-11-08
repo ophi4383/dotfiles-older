@@ -5,7 +5,7 @@ input * {
 	xkb_model pc105
 	xkb_numlock enable
 }
-output * bg ~/Documents/frieren.png fill
+output * bg ~/Documents/aot.png fill
 set $mod Mod4
 set $term alacritty
 
@@ -20,6 +20,7 @@ blur_radius 3
 gaps inner 6
 gaps outer 3
 default_border pixel 0
+layer_effects "waybar" blur enable; shadows enable
 font pango: Jetbrains Mono 10
 workspace_layout default
 floating_modifier $mod normal
@@ -150,7 +151,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+f+g fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout tiling

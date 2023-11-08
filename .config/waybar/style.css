@@ -11,23 +11,25 @@
 }
 
 window#waybar {
-    background: rgba(41, 44, 60, 0.5);
-    color: @text;
+    background: rgba(41, 44, 60, 0.1);
+    color: @base;
 }
 
 #workspaces button {
 	margin-left: 0px;
 	padding: 0 0px;
-	padding-bottom: 3px;
+	padding-bottom: 1px;
+	margin-bottom: 2px;
 	border-radius: 7px;
 /*    background: rgba(41, 44, 60, 50); */
-    color: @text;
+    color: @base;
 }
 
 #workspaces button.focused {
-    background: rgba(41, 44, 60, 0.3);
+    background: rgba(41, 44, 60, 0.2);
     padding: 0 0px;
-    padding-bottom: 3px;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
 }
 
 #clock, #language, #cpu, #memory, #tray, #pulseaudio, #custom-temp, #custom-spotify, #network {
@@ -39,7 +41,7 @@ window#waybar {
 
 #tray menu {
 	background: rgba(41, 44, 60, 50);
-	color: @text;
+	color: @base;
 	padding-bottom: 3px;
 }
 
