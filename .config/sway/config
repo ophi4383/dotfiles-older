@@ -124,7 +124,8 @@ bindsym $mod+Return exec $term
 bindsym $mod+Shift+q kill
 
 # rofi
-bindsym $mod+d exec rofi -modes "drun" -theme /home/ophi/.config/rofi/themes/catppuccin-frappe.rasi -show drun \
+set $menu "sirula"
+bindsym $mod+d exec $menu
 
 # focus
 bindsym $mod+Left focus left
