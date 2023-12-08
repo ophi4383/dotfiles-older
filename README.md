@@ -7,7 +7,8 @@ My dotfiles on swayfx :3
 - waybar (status bar)
 - mako (notification daemon)
 - cliphist (clipboard thing)
-- rofi (app menu / clipboard viewer)
+- sirula (app menu)
+- rofi (clipboard viewer)
   - ibonn fork **specifically**
 - alacritty (terminal)
 - swaylock (lockscreen)
