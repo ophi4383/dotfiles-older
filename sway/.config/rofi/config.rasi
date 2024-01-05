@@ -1,0 +1,11 @@
+configuration{
+    modi: "drun";
+    icon-theme: "Qogir";
+    show-icons: true;
+    terminal: "kitty";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   ";
+    sidebar-mode: false;
+}

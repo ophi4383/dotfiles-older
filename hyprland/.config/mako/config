@@ -1,0 +1,14 @@
+font=Jetbrains Mono 9
+width=300
+height=300
+anchor=bottom-right
+default-timeout=5000
+border-radius=5
+max-history=5
+background-color=#303446
+text-color=#c6d0f5
+border-color=#8caaee
+progress-color=over #414559
+
+[urgency=high]
+border-color=#ef9f76

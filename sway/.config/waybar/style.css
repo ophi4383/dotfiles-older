@@ -1,0 +1,60 @@
+@import "frappe.css";
+
+* {
+	padding-top: 1pt;
+    border: none;
+    border-radius: 0;
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 10px;
+}
+
+window#waybar {
+    background: rgba(41, 44, 60, 0.1);
+    color: @base;
+}
+
+#workspaces button {
+	margin-left: 0px;
+	padding: 0 0px;
+	padding-bottom: 1px;
+	margin-bottom: 2px;
+	border-radius: 7px;
+/*    background: rgba(41, 44, 60, 50); */
+    color: @base;
+}
+
+#workspaces button.focused {
+    background: rgba(41, 44, 60, 0.2);
+    padding: 0 0px;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+}
+
+#clock, #language, #cpu, #memory, #tray, #pulseaudio, #custom-temp, #custom-spotify, #network {
+	border-radius: 7px;
+	margin-left: 5px;
+	margin-right: 5px;
+    padding: 0 10px;
+}
+
+#tray menu {
+	background: rgba(41, 44, 60, 50);
+	color: @base;
+	padding-bottom: 3px;
+}
+
+#custom-spotify {
+	background-color: @green;
+	color: @mantle;
+}
+
+#network.disabled {
+	background-color: @red;
+}
+
+#network.disconnected {
+	background-color: @yellow;
+}
+
