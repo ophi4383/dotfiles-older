@@ -1,9 +1,10 @@
 ![lol](https://raw.githubusercontent.com/ophi4383/dotfiles/main/repo/screenshot.png)
 # DOTFILES
-My dotfiles on swayfx :3 
+my dotfiles on both hyprland and sway (the later is currently unmaintained) :V
 
 ## DEPENDENCIES
-- SwayFX (Window manager)
+- SwayFX / Hyprland (Window manager)
+- nwg-bar (power manager)
 - waybar (status bar)
 - mako (notification daemon)
 - cliphist (clipboard thing)
